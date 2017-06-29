@@ -30,17 +30,17 @@ function scene:create( event )
 
 	-- Code here runs when the scene is first created but has not yet appeared on screen
 
-    local background = display.newImageRect(sceneGroup, "background-menu.png", 800, 1400)
+    local background = display.newImageRect(sceneGroup, "background-snow.jpg", 580, 400)
     background.x = display.contentCenterX
     background.y = display.contentCenterY
 
-    local title = display.newImageRect(sceneGroup, "title-archer.png", 500, 80)
+    local title = display.newImageRect(sceneGroup, "LOGO.png", 500, 200)
     title.x = display.contentCenterX
     title.y = display.contentCenterY - 100
 
-    local playButton = display.newImageRect(sceneGroup, "play_button.png", 75, 75)
+    local playButton = display.newImageRect(sceneGroup, "play-button.png", 80, 60)
     playButton.x = display.contentCenterX
-    playButton.y = display.contentCenterY
+    playButton.y = display.contentCenterY + 50
 
 	--[[
 
